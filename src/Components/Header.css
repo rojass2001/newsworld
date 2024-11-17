@@ -1,0 +1,35 @@
+.header{
+    height: 60px;
+    display:flex;
+    width: 100%;
+    max-width: 1500px;
+    justify-content: space-between;
+}
+.badge{
+    margin: 10px 0 0 12px;
+    padding: 10px 0 0 0;
+    height:40px;
+    width:100px;
+}
+.newsworld{
+    font-size: 23px;
+}
+.search{
+    margin: 14px;
+}
+.search button{
+    background-color: black;
+    border: 2px solid gray;
+    margin-left: 12px;
+    color:white;
+    width: 70px;
+    height: 35px;
+    
+    border-radius: 20px;
+}
+@media(max-width:400px){
+.text{
+    width:150px;
+}
+
+}

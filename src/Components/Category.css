@@ -1,0 +1,22 @@
+.category{
+   overflow-x:auto ;
+    padding: 11px 0 0 15px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border: 2px solid red;
+    gap:20px
+}
+.category button{
+    color:white;
+   border-radius: 60px;
+   height: 40px;
+   border: 1px solid silver;
+   width: 130px;
+   background-color: black;
+}
+.category button:hover{
+ background-color: white;
+ color:black;
+}
