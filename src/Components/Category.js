@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Category.css"
 import { fetchproduct } from '../Redux/Reducer';
-import { useSelector,useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 function Category() {
   const dispatch=useDispatch();
 

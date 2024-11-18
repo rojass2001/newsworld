@@ -1,10 +1,10 @@
 import React from 'react'
-import './Mainpage.css'
 import Card from './Card'
+import Category from './Category'
 function Mainpage() {  
   return (
     <div>
-      
+      <Category/>
         <Card/>
       </div>
   )
