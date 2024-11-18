@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import Routeslayot from './Components/Routeslayot';
-import Header from './Header';
-import Mainpage from './Mainpage';
+import Header from './Components/Header';
+import Mainpage from './Components/Mainpage';
 function App() {
   return( 
   <div className='App'>
