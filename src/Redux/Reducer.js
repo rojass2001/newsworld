@@ -2,9 +2,9 @@ import { createSlice,createAsyncThunk } from "@reduxjs/toolkit"
 import axios from "axios";
 
 
-const apikey='43d706cbfde3478eb66d56dde39a1e7a'
+
 export const fetchproduct=createAsyncThunk("cart/fetchproduct",async(search)=>{
-    const response=await axios.get(`https://newsapi.org/v2/everything?q=${search}&apiKey=${apikey}`)
+    const response=await axios.get(`https://newsapi.org/v2/everything?q=${search}&apiKey=66ca959b2d964068990ec8c7668637c6`)
     //console.log(response.data);
     return response.data.articles;
 })
