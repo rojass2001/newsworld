@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 export const fetchproduct=createAsyncThunk("cart/fetchproduct",async(search)=>{
-    const response=await axios.get(`https://newsapi.org/v2/everything?q=${search}&apiKey=66ca959b2d964068990ec8c7668637c6`)
+    const response=await axios.get(`https://newsapi.org/v2/everything?q=${search}&apiKey=919b265f33a24bb6b651bed7d74a4444`)
     //console.log(response.data);
     return response.data.articles;
 })
