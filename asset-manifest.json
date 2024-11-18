@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/newsworld/static/css/main.c887e417.css",
+    "main.css": "/newsworld/static/css/main.5bd802c6.css",
     "main.js": "/newsworld/static/js/main.0eeeba13.js",
     "index.html": "/newsworld/index.html",
-    "main.c887e417.css.map": "/newsworld/static/css/main.c887e417.css.map",
+    "main.5bd802c6.css.map": "/newsworld/static/css/main.5bd802c6.css.map",
     "main.0eeeba13.js.map": "/newsworld/static/js/main.0eeeba13.js.map"
   },
   "entrypoints": [
-    "static/css/main.c887e417.css",
+    "static/css/main.5bd802c6.css",
     "static/js/main.0eeeba13.js"
   ]
 }
