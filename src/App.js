@@ -1,11 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Routeslayot from './Components/Routeslayot';
-
+//import Routeslayot from './Components/Routeslayot';
+import Header from './Header';
+import Mainpage from './Mainpage';
 function App() {
   return( 
   <div className='App'>
-   <Routeslayot/>
+   <Header/>
+   <Mainpage/>
   </div>
   )
 }
