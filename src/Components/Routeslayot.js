@@ -9,6 +9,7 @@ function Routeslayot() {
      <Header/>
     <Routes>
     <Route path='/' element={<Mainpage/>}/>
+    <Route path='/newsworld' element={<Mainpage/>}/>
     </Routes>
      </Router>
     </>
