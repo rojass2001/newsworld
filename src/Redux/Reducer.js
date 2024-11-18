@@ -1,12 +1,12 @@
 import { createSlice,createAsyncThunk } from "@reduxjs/toolkit"
 import axios from "axios";
 
+//https://newsapi.org/v2/everything?q=${search}&apiKey=919b265f33a24bb6b651bed7d74a4444
 
-
-export const fetchproduct=createAsyncThunk("cart/fetchproduct",async(search)=>{
-    const response=await axios.get(`https://newsapi.org/v2/everything?q=${search}&apiKey=919b265f33a24bb6b651bed7d74a4444`)
-    //console.log(response.data);
-    return response.data.articles;
+export const fetchproduct=createAsyncThunk("cart/fetchproduct",async()=>{
+    const response=await axios.get('https://fakestoreapi.com/products')
+    console.log(response.data);
+    return response.data;
 })
 
 

@@ -10,7 +10,7 @@ function Header() {
         setsearched(e.target.value);       
        }
     const  getdata=()=>{
-    dispatch(fetchproduct(searched));
+    dispatch(fetchproduct());
        
        }
         useEffect(()=>{ 
