@@ -6,7 +6,7 @@
     width: auto;
     display: grid;
     grid-template-columns: 270px 270px 270px 270px;
-   border:2px solid red;
+   
     height: 700px;
     gap: 25px;
     justify-content: center;

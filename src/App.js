@@ -1,20 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from 'react';
-//import { getData } from './Components/Api';
-import { useSelector,useDispatch } from 'react-redux';
-import Header from './Components/Header';
-import Category from './Components/Category';
-import Mainpage from './Components/Mainpage';
-//import { getData } from './Redux/Reducer';
-//import { submit } from './Redux/Reducer';
+import Routeslayot from './Components/Routeslayot';
+
 function App() {
   return( 
   <div className='App'>
-    <Header/>
-   <Category/>
-   <Mainpage/>
+   <Routeslayot/>
   </div>
   )
 }
