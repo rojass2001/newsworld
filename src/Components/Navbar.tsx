@@ -1,5 +1,4 @@
 "use client"
-import Categories from "./Categories"
 import Searchbar from "./Searchbar"
 function Navbar() {
   
@@ -11,7 +10,7 @@ function Navbar() {
              </div>
             <Searchbar/>
         </div>
-        <Categories/>
+       
     </nav>
   )
 }
