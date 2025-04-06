@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <Categories/>
-     <div className='w-full pt-[130px]'>
+      
+      <div className='w-full pt-[80px]'>
+        <Categories/>
           <Newsgrid/>
       </div>
   
