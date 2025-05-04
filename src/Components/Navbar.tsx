@@ -1,5 +1,3 @@
-"use client" // Ensures this component runs on the client-side in Next.js
-
 import Box from "./Box" // Import Box component for layout and styling
 import Searchbar from "./Searchbar" // Import Searchbar component for user search input
 import Text from "./Text" // Import Text component for displaying text content

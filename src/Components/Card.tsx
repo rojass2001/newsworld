@@ -1,4 +1,4 @@
-"use client" // Ensures this component is used on the client-side in Next.js
+"use client"
 
 import React from 'react' // Import React for JSX syntax
 import Image from 'next/image' // Import Next.js Image component for optimized image loading
