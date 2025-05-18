@@ -11,12 +11,11 @@ function Card({ news }: { news: newslist }) {
   return (
     // Container for the entire card with a minimum height and padding
     <Box className="min-h-[280px] pb-3 space-y-2 relative text-white border-2 border-white">
-      
+
       {/* Box for image section with specified height */}
       <Box className="w-full relative h-[120px]">
-        
-        {/* Conditionally render image if urlToImage exists */}
-        {news.urlToImage && (
+        {/* conditionally render if image exist */}
+        {news.urlToImage ? (
           <Image
             className="w-full h-full" // Full width and height for the image
             fill // Fill the container
@@ -24,11 +23,12 @@ function Card({ news }: { news: newslist }) {
             quality={75} // Set image quality for optimization
             src={news.urlToImage} // Image source from news data
             alt="image loading" // Fallback alt text for accessibility
+            sizes="(max-width: 768px) 100vw, 33vw" // Helps with responsive sizing
           />
+        ) : (
+          // Fallback text while image is loading
+          <Box className="w-full text-center">image loading</Box>
         )}
-        
-        {/* Fallback text while image is loading */}
-        <Box className="w-full text-center">image loading</Box>
       </Box>
 
       {/* Title text of the news article, truncated to 50 characters */}
